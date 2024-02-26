@@ -1,0 +1,36 @@
+body{
+    background-color: silver;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.table{
+    width: 80%;
+    margin: 15px auto;
+    border: 3px solid black;
+    box-shadow: 0 0 10px gray;
+    border-collapse: collapse;
+}
+
+.table td, th{
+    border: 1px solid gray;
+    padding: 6px;
+}
+
+.table thead{
+    background-color: slategray;
+}
+
+.table tbody tr td:last-child{
+    text-align: right;
+}
+
+
+.table tfoot{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
