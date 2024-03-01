@@ -4,6 +4,8 @@ body{
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    margin: 0;
+    padding: 0;
 }
 
 .table{
@@ -15,7 +17,7 @@ body{
 }
 
 .table td, th{
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
     padding: 6px;
 }
 
@@ -23,8 +25,18 @@ body{
     background-color: slategray;
 }
 
-.table tbody tr td:last-child{
+.table tbody>tr>td:last-child{
     text-align: right;
+}
+
+
+.table tbody tr:hover{
+    cursor: pointer;
+    background-color: rgb(86, 90, 94);
+    color: white;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    
 }
 
 
@@ -33,4 +45,16 @@ body{
     color: whitesmoke;
     text-align: center;
 }
+
+
+#container{
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    height: 100vh; 
+    padding: 15px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/*media query-k
 
