@@ -56,5 +56,28 @@ body{
     margin: 0 auto;
 }
 
-/*media query-k
+/*media query-k */
 
+@media screen (min-width:640px) {
+    #container {
+        width: 100%;
+    }
+}
+
+@media screen (min-width:800px) {
+    #container {
+        width: 90%;
+    }
+}
+
+@media screen (min-width:1280px) {
+    #container {
+        width: 80%;
+    }
+}
+
+@media screen (min-width:1680px) {
+    #container {
+        width: 60%;
+    }
+}
